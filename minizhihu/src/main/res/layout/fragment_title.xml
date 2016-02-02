@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:background="#25ada9aa"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="今日热闻"-->
+        <!--android:textSize="15sp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingBottom="10dp"/>-->
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/title_list"-->
+        <!--android:background="#25ada9aa"-->
+        <!--android:divider="@null">-->
+    <!--</ListView>-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="?toolBar"
+        android:titleTextColor="#FFFFFF"
+        android:minHeight="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        ptr:ptrMode="both"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/title_list"
+        android:background="#f2f2f2"
+        android:divider="@null">
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

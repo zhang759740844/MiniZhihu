@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="btnColor" format="color" />
+
+    <attr name="mainBackground" format="color" />
+
+    <attr name="mainTextColor" format="reference|color" />
+
+    <attr name="textString" format="string" />
+
+    <attr name="toolBar" format="color"/>
+    <attr name="textview_style" format="reference"/>
+    <attr name="textview_style2" format="reference"/>
+    <attr name="mainBackground2" format="color"/>
+    <attr name="mainBackground3" format="color"/>
+    <attr name="dividerColor" format="color"/>
+    <!--<attr name="titleStyleLeft" format="Integer"/>-->
+</resources>

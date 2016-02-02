@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MiniZhihu.iml" filepath="$PROJECT_DIR$/MiniZhihu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annimation/annimation.iml" filepath="$PROJECT_DIR$/annimation/annimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clock/clock1.iml" filepath="$PROJECT_DIR$/clock/clock1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawlayout/drawlayout.iml" filepath="$PROJECT_DIR$/drawlayout/drawlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanarytext/leakcanarytext.iml" filepath="$PROJECT_DIR$/leakcanarytext/leakcanarytext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_PullToRefresh/library_PullToRefresh.iml" filepath="$PROJECT_DIR$/library_PullToRefresh/library_PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minizhihu/minizhihu.iml" filepath="$PROJECT_DIR$/minizhihu/minizhihu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nightmode/nightmode.iml" filepath="$PROJECT_DIR$/nightmode/nightmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpager/viewpager.iml" filepath="$PROJECT_DIR$/viewpager/viewpager.iml" />
+    </modules>
+  </component>
+</project>

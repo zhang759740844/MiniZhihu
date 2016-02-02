@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowNoTitle">true</item>-->
+    </style>
+    <!-- 默认 -->
+    <style name="MyThemeDefault" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="btnColor">#00ff00</item>
+        <item name="mainBackground">#ffffff</item>
+        <item name="mainTextColor">#000000</item>
+        <item name="textString">夜间模式</item>
+        <item name="toolBar">#59a0ff</item>
+        <item name="textview_style">@drawable/textview_style</item>
+        <item name="textview_style2">@drawable/textview_style2</item>
+        <item name="mainBackground2">#f7f4f1</item>
+        <item name="mainBackground3">#FFFFFF</item>
+        <item name="dividerColor">#dedddf</item>
+    </style>
+
+    <!-- 夜间 -->
+    <style name="MyThemeNight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="mainBackground2">#000000</item>
+        <item name="btnColor">#0000ff</item>
+        <item name="mainBackground">#000000</item>
+        <item name="mainTextColor">#ffffff</item>
+        <item name="textString">日间模式</item>
+        <item name="toolBar">#000000</item>
+        <item name="textview_style">@drawable/textview_style_night</item>
+        <item name="textview_style2">@drawable/textview_style2_night</item>
+        <item name="mainBackground3">#29292c</item>
+        <item name="dividerColor">#FFFFFF</item>
+    </style>
+
+</resources>

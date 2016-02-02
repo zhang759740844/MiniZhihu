@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:flipInterval="1"
+        android:persistentDrawingCache="animation"/>
+    <TextView
+        android:background="?mainBackground2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日热闻"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="?mainTextColor"
+        android:paddingBottom="10dp"/>
+</LinearLayout>

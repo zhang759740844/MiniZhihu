@@ -1,0 +1,5 @@
+include ':minizhihu', ':pulltorefresh', ':viewpager', ':clock1', ':drawlayout', ':recyclerview', ':toolbar', ':nightmode', ':annimation', ':test', ':leakcanarytext'
+
+
+include ':library_PullToRefresh'
+project(':clock1').projectDir = new File('clock')

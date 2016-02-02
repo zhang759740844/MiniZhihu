@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentWebView"></WebView>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarContent"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="?toolBar"
+        android:titleTextColor="#FFFFFF"
+        android:minHeight="?attr/actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_thumb"
+            android:layout_gravity="right"
+            android:textColor="?mainTextColor"
+            android:paddingRight="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/icon_thumb"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_comment"
+            android:layout_gravity="right"
+            android:textColor="?mainTextColor"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_message"
+            android:layout_gravity="right"
+            android:id="@+id/icon_comment"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+</RelativeLayout>
